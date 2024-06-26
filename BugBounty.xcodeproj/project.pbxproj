@@ -11,6 +11,39 @@
 		B23933E52C0DA83A0072CC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933E42C0DA83A0072CC1D /* ContentView.swift */; };
 		B23933E72C0DA83C0072CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23933E62C0DA83C0072CC1D /* Assets.xcassets */; };
 		B23933EA2C0DA83C0072CC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23933E92C0DA83C0072CC1D /* Preview Assets.xcassets */; };
+		B23933F12C0DA8510072CC1D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933F02C0DA8510072CC1D /* LottieView.swift */; };
+		B23933F32C0DA85A0072CC1D /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933F22C0DA85A0072CC1D /* BannerAds.swift */; };
+		B23933F52C0DA8610072CC1D /* MainBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933F42C0DA8610072CC1D /* MainBasic.swift */; };
+		B23933F72C0DA86F0072CC1D /* MainIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933F62C0DA86F0072CC1D /* MainIntermediate.swift */; };
+		B23933F92C0DA8770072CC1D /* MainAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933F82C0DA8770072CC1D /* MainAdvance.swift */; };
+		B23934012C0DA9490072CC1D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B23934002C0DA9490072CC1D /* Lottie */; };
+		B23934032C0DADAF0072CC1D /* B1_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934022C0DADAF0072CC1D /* B1_Intro.swift */; };
+		B23934052C0DADCC0072CC1D /* B2_whatis_bug_bounty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934042C0DADCC0072CC1D /* B2_whatis_bug_bounty.swift */; };
+		B23934072C0DADDF0072CC1D /* B3_top_vuln.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934062C0DADDF0072CC1D /* B3_top_vuln.swift */; };
+		B23934092C0DAE070072CC1D /* B4_penetration_testing_labs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934082C0DAE070072CC1D /* B4_penetration_testing_labs.swift */; };
+		B239340B2C0DAE170072CC1D /* B5_bug_bounty_tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239340A2C0DAE170072CC1D /* B5_bug_bounty_tools.swift */; };
+		B239340D2C0DAE2F0072CC1D /* B6_hackers_search_engin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239340C2C0DAE2F0072CC1D /* B6_hackers_search_engin.swift */; };
+		B239340F2C0DAE420072CC1D /* B7_learn_from_website.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239340E2C0DAE420072CC1D /* B7_learn_from_website.swift */; };
+		B23934112C0DAE560072CC1D /* B8_top_company_program.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934102C0DAE560072CC1D /* B8_top_company_program.swift */; };
+		B23934132C0DAE6E0072CC1D /* B9_online_practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934122C0DAE6E0072CC1D /* B9_online_practice.swift */; };
+		B23934152C0DAE820072CC1D /* B10_top_extension_bug_bounty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934142C0DAE820072CC1D /* B10_top_extension_bug_bounty.swift */; };
+		B23934172C0DAFC50072CC1D /* I1_advance_xss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934162C0DAFC40072CC1D /* I1_advance_xss.swift */; };
+		B239341B2C0DAFFB0072CC1D /* I2_api_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239341A2C0DAFFB0072CC1D /* I2_api_testing.swift */; };
+		B239341D2C0DB0110072CC1D /* I3_bug_bounty_checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239341C2C0DB0110072CC1D /* I3_bug_bounty_checklist.swift */; };
+		B239341F2C0DB0240072CC1D /* I4_mobile_reverse_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239341E2C0DB0240072CC1D /* I4_mobile_reverse_eng.swift */; };
+		B23934212C0DB0420072CC1D /* I5_mobile_application_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934202C0DB0420072CC1D /* I5_mobile_application_testing.swift */; };
+		B23934232C0DB0590072CC1D /* I6_mobile_device_security_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934222C0DB0590072CC1D /* I6_mobile_device_security_testing.swift */; };
+		B23934252C0DB0AF0072CC1D /* I7_real_life_bug_bounty_cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934242C0DB0AF0072CC1D /* I7_real_life_bug_bounty_cases.swift */; };
+		B23934272C0DB0C60072CC1D /* I8_books_for_bug_bounty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934262C0DB0C60072CC1D /* I8_books_for_bug_bounty.swift */; };
+		B239342B2C0DB2B60072CC1D /* A1_recon_techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239342A2C0DB2B60072CC1D /* A1_recon_techniques.swift */; };
+		B239342D2C0DB2C90072CC1D /* A2_third_party_tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239342C2C0DB2C90072CC1D /* A2_third_party_tools.swift */; };
+		B239342F2C0DB2DE0072CC1D /* A3_tips_for_sucsess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239342E2C0DB2DE0072CC1D /* A3_tips_for_sucsess.swift */; };
+		B23934312C0DB2EC0072CC1D /* A4_tools_n_resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934302C0DB2EC0072CC1D /* A4_tools_n_resources.swift */; };
+		B23934332C0DB30C0072CC1D /* A5_tools_for_mobile_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934322C0DB30C0072CC1D /* A5_tools_for_mobile_app.swift */; };
+		B23934352C0DB3240072CC1D /* A6_top_website.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934342C0DB3240072CC1D /* A6_top_website.swift */; };
+		B23934372C0DB3380072CC1D /* A7_workflow_report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934362C0DB3380072CC1D /* A7_workflow_report.swift */; };
+		B23934392C0DB3510072CC1D /* A8_bug_bounty_platform_report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23934382C0DB3510072CC1D /* A8_bug_bounty_platform_report.swift */; };
+		B239343B2C0DB3630072CC1D /* A9_how_to_write_report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239343A2C0DB3630072CC1D /* A9_how_to_write_report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +52,38 @@
 		B23933E42C0DA83A0072CC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B23933E62C0DA83C0072CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23933E92C0DA83C0072CC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23933F02C0DA8510072CC1D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B23933F22C0DA85A0072CC1D /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		B23933F42C0DA8610072CC1D /* MainBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBasic.swift; sourceTree = "<group>"; };
+		B23933F62C0DA86F0072CC1D /* MainIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntermediate.swift; sourceTree = "<group>"; };
+		B23933F82C0DA8770072CC1D /* MainAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdvance.swift; sourceTree = "<group>"; };
+		B23934022C0DADAF0072CC1D /* B1_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_Intro.swift; sourceTree = "<group>"; };
+		B23934042C0DADCC0072CC1D /* B2_whatis_bug_bounty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_whatis_bug_bounty.swift; sourceTree = "<group>"; };
+		B23934062C0DADDF0072CC1D /* B3_top_vuln.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_top_vuln.swift; sourceTree = "<group>"; };
+		B23934082C0DAE070072CC1D /* B4_penetration_testing_labs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_penetration_testing_labs.swift; sourceTree = "<group>"; };
+		B239340A2C0DAE170072CC1D /* B5_bug_bounty_tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_bug_bounty_tools.swift; sourceTree = "<group>"; };
+		B239340C2C0DAE2F0072CC1D /* B6_hackers_search_engin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_hackers_search_engin.swift; sourceTree = "<group>"; };
+		B239340E2C0DAE420072CC1D /* B7_learn_from_website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B7_learn_from_website.swift; sourceTree = "<group>"; };
+		B23934102C0DAE560072CC1D /* B8_top_company_program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B8_top_company_program.swift; sourceTree = "<group>"; };
+		B23934122C0DAE6E0072CC1D /* B9_online_practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B9_online_practice.swift; sourceTree = "<group>"; };
+		B23934142C0DAE820072CC1D /* B10_top_extension_bug_bounty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B10_top_extension_bug_bounty.swift; sourceTree = "<group>"; };
+		B23934162C0DAFC40072CC1D /* I1_advance_xss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_advance_xss.swift; sourceTree = "<group>"; };
+		B239341A2C0DAFFB0072CC1D /* I2_api_testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_api_testing.swift; sourceTree = "<group>"; };
+		B239341C2C0DB0110072CC1D /* I3_bug_bounty_checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_bug_bounty_checklist.swift; sourceTree = "<group>"; };
+		B239341E2C0DB0240072CC1D /* I4_mobile_reverse_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_mobile_reverse_eng.swift; sourceTree = "<group>"; };
+		B23934202C0DB0420072CC1D /* I5_mobile_application_testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_mobile_application_testing.swift; sourceTree = "<group>"; };
+		B23934222C0DB0590072CC1D /* I6_mobile_device_security_testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_mobile_device_security_testing.swift; sourceTree = "<group>"; };
+		B23934242C0DB0AF0072CC1D /* I7_real_life_bug_bounty_cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_real_life_bug_bounty_cases.swift; sourceTree = "<group>"; };
+		B23934262C0DB0C60072CC1D /* I8_books_for_bug_bounty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_books_for_bug_bounty.swift; sourceTree = "<group>"; };
+		B239342A2C0DB2B60072CC1D /* A1_recon_techniques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_recon_techniques.swift; sourceTree = "<group>"; };
+		B239342C2C0DB2C90072CC1D /* A2_third_party_tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_third_party_tools.swift; sourceTree = "<group>"; };
+		B239342E2C0DB2DE0072CC1D /* A3_tips_for_sucsess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_tips_for_sucsess.swift; sourceTree = "<group>"; };
+		B23934302C0DB2EC0072CC1D /* A4_tools_n_resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_tools_n_resources.swift; sourceTree = "<group>"; };
+		B23934322C0DB30C0072CC1D /* A5_tools_for_mobile_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_tools_for_mobile_app.swift; sourceTree = "<group>"; };
+		B23934342C0DB3240072CC1D /* A6_top_website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_top_website.swift; sourceTree = "<group>"; };
+		B23934362C0DB3380072CC1D /* A7_workflow_report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_workflow_report.swift; sourceTree = "<group>"; };
+		B23934382C0DB3510072CC1D /* A8_bug_bounty_platform_report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_bug_bounty_platform_report.swift; sourceTree = "<group>"; };
+		B239343A2C0DB3630072CC1D /* A9_how_to_write_report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_how_to_write_report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23934012C0DA9490072CC1D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +121,11 @@
 				B23933E42C0DA83A0072CC1D /* ContentView.swift */,
 				B23933E62C0DA83C0072CC1D /* Assets.xcassets */,
 				B23933E82C0DA83C0072CC1D /* Preview Content */,
+				B23933FA2C0DA8840072CC1D /* Lottie */,
+				B23933FB2C0DA8930072CC1D /* Ads */,
+				B23933FC2C0DA8A50072CC1D /* Basic */,
+				B23933FD2C0DA8BC0072CC1D /* Intermediate */,
+				B23933FE2C0DA8C70072CC1D /* Advance */,
 			);
 			path = BugBounty;
 			sourceTree = "<group>";
@@ -65,6 +136,73 @@
 				B23933E92C0DA83C0072CC1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23933FA2C0DA8840072CC1D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B23933F02C0DA8510072CC1D /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B23933FB2C0DA8930072CC1D /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B23933F22C0DA85A0072CC1D /* BannerAds.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B23933FC2C0DA8A50072CC1D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B23933F42C0DA8610072CC1D /* MainBasic.swift */,
+				B23934122C0DAE6E0072CC1D /* B9_online_practice.swift */,
+				B23934102C0DAE560072CC1D /* B8_top_company_program.swift */,
+				B239340E2C0DAE420072CC1D /* B7_learn_from_website.swift */,
+				B239340C2C0DAE2F0072CC1D /* B6_hackers_search_engin.swift */,
+				B23934022C0DADAF0072CC1D /* B1_Intro.swift */,
+				B23934042C0DADCC0072CC1D /* B2_whatis_bug_bounty.swift */,
+				B23934062C0DADDF0072CC1D /* B3_top_vuln.swift */,
+				B23934082C0DAE070072CC1D /* B4_penetration_testing_labs.swift */,
+				B239340A2C0DAE170072CC1D /* B5_bug_bounty_tools.swift */,
+				B23934142C0DAE820072CC1D /* B10_top_extension_bug_bounty.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B23933FD2C0DA8BC0072CC1D /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B23933F62C0DA86F0072CC1D /* MainIntermediate.swift */,
+				B23934162C0DAFC40072CC1D /* I1_advance_xss.swift */,
+				B239341A2C0DAFFB0072CC1D /* I2_api_testing.swift */,
+				B239341C2C0DB0110072CC1D /* I3_bug_bounty_checklist.swift */,
+				B239341E2C0DB0240072CC1D /* I4_mobile_reverse_eng.swift */,
+				B23934202C0DB0420072CC1D /* I5_mobile_application_testing.swift */,
+				B23934222C0DB0590072CC1D /* I6_mobile_device_security_testing.swift */,
+				B23934242C0DB0AF0072CC1D /* I7_real_life_bug_bounty_cases.swift */,
+				B23934262C0DB0C60072CC1D /* I8_books_for_bug_bounty.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B23933FE2C0DA8C70072CC1D /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B23933F82C0DA8770072CC1D /* MainAdvance.swift */,
+				B23934322C0DB30C0072CC1D /* A5_tools_for_mobile_app.swift */,
+				B23934302C0DB2EC0072CC1D /* A4_tools_n_resources.swift */,
+				B239342C2C0DB2C90072CC1D /* A2_third_party_tools.swift */,
+				B239342A2C0DB2B60072CC1D /* A1_recon_techniques.swift */,
+				B239342E2C0DB2DE0072CC1D /* A3_tips_for_sucsess.swift */,
+				B23934342C0DB3240072CC1D /* A6_top_website.swift */,
+				B23934362C0DB3380072CC1D /* A7_workflow_report.swift */,
+				B23934382C0DB3510072CC1D /* A8_bug_bounty_platform_report.swift */,
+				B239343A2C0DB3630072CC1D /* A9_how_to_write_report.swift */,
+			);
+			path = Advance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +221,9 @@
 			dependencies = (
 			);
 			name = BugBounty;
+			packageProductDependencies = (
+				B23934002C0DA9490072CC1D /* Lottie */,
+			);
 			productName = BugBounty;
 			productReference = B23933DF2C0DA83A0072CC1D /* BugBounty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +252,9 @@
 				Base,
 			);
 			mainGroup = B23933D62C0DA8390072CC1D;
+			packageReferences = (
+				B23933FF2C0DA9490072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B23933E02C0DA83A0072CC1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +281,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23934372C0DB3380072CC1D /* A7_workflow_report.swift in Sources */,
+				B23933F32C0DA85A0072CC1D /* BannerAds.swift in Sources */,
+				B23934152C0DAE820072CC1D /* B10_top_extension_bug_bounty.swift in Sources */,
+				B23934072C0DADDF0072CC1D /* B3_top_vuln.swift in Sources */,
+				B23934212C0DB0420072CC1D /* I5_mobile_application_testing.swift in Sources */,
+				B23933F52C0DA8610072CC1D /* MainBasic.swift in Sources */,
+				B23934092C0DAE070072CC1D /* B4_penetration_testing_labs.swift in Sources */,
+				B23934112C0DAE560072CC1D /* B8_top_company_program.swift in Sources */,
+				B239341D2C0DB0110072CC1D /* I3_bug_bounty_checklist.swift in Sources */,
+				B239340D2C0DAE2F0072CC1D /* B6_hackers_search_engin.swift in Sources */,
 				B23933E52C0DA83A0072CC1D /* ContentView.swift in Sources */,
+				B239341B2C0DAFFB0072CC1D /* I2_api_testing.swift in Sources */,
+				B23933F72C0DA86F0072CC1D /* MainIntermediate.swift in Sources */,
+				B23934172C0DAFC50072CC1D /* I1_advance_xss.swift in Sources */,
+				B23933F92C0DA8770072CC1D /* MainAdvance.swift in Sources */,
+				B23934312C0DB2EC0072CC1D /* A4_tools_n_resources.swift in Sources */,
+				B239342B2C0DB2B60072CC1D /* A1_recon_techniques.swift in Sources */,
 				B23933E32C0DA83A0072CC1D /* BugBountyApp.swift in Sources */,
+				B23934232C0DB0590072CC1D /* I6_mobile_device_security_testing.swift in Sources */,
+				B239340B2C0DAE170072CC1D /* B5_bug_bounty_tools.swift in Sources */,
+				B23934352C0DB3240072CC1D /* A6_top_website.swift in Sources */,
+				B239341F2C0DB0240072CC1D /* I4_mobile_reverse_eng.swift in Sources */,
+				B23933F12C0DA8510072CC1D /* LottieView.swift in Sources */,
+				B23934252C0DB0AF0072CC1D /* I7_real_life_bug_bounty_cases.swift in Sources */,
+				B23934132C0DAE6E0072CC1D /* B9_online_practice.swift in Sources */,
+				B23934332C0DB30C0072CC1D /* A5_tools_for_mobile_app.swift in Sources */,
+				B239340F2C0DAE420072CC1D /* B7_learn_from_website.swift in Sources */,
+				B23934052C0DADCC0072CC1D /* B2_whatis_bug_bounty.swift in Sources */,
+				B23934392C0DB3510072CC1D /* A8_bug_bounty_platform_report.swift in Sources */,
+				B239342D2C0DB2C90072CC1D /* A2_third_party_tools.swift in Sources */,
+				B239342F2C0DB2DE0072CC1D /* A3_tips_for_sucsess.swift in Sources */,
+				B23934272C0DB0C60072CC1D /* I8_books_for_bug_bounty.swift in Sources */,
+				B23934032C0DADAF0072CC1D /* B1_Intro.swift in Sources */,
+				B239343B2C0DB3630072CC1D /* A9_how_to_write_report.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +520,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B23933FF2C0DA9490072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23934002C0DA9490072CC1D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B23933FF2C0DA9490072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B23933D72C0DA8390072CC1D /* Project object */;
 }
